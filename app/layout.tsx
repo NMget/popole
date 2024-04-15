@@ -19,9 +19,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Voir annexe pour h-full
   return (
-    <html lang="en">
-      <body className={cn(GeistSans.variable, AnekTelugu, "font-sans")}>
+    <html lang="en" className="h-full">
+      <body className={cn(GeistSans.variable, AnekTelugu, "font-sans h-full")}>
         {children}
       </body>
     </html>
