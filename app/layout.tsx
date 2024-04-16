@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import { Anek_Telugu } from "next/font/google";
@@ -19,13 +20,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // Voir annexe pour h-full
   return (
     <html lang="en" className="h-full">
       <body
         className={cn(
           GeistSans.variable,
-          AnekTelugu,
+          GeistMono.variable,
+          AnekTelugu.variable,
           "font-sans h-full bg-background text-foreground"
         )}
       >
