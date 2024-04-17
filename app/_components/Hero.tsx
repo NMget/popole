@@ -18,8 +18,8 @@ const Code = (props: ComponentPropsWithoutRef<"span">) => {
 
 export const Hero = () => {
   return (
-    <Section className="flex max-md:flex-col items-start">
-      <div className="flex-[2] flex flex-col gap-2">
+    <Section className="flex max-md:flex-col items-start gap-4">
+      <div className="flex-[3] flex flex-col gap-2">
         <h2 className="font-caption text-5xl text-primary">Popol</h2>
         <h3 className="text-3xl font-caption">
           Développeur Logiciel et créateur Web
@@ -42,10 +42,10 @@ export const Hero = () => {
           . J'aime aussi les poireaux et Molie.
         </p>
       </div>
-      <div className="flex-[1]">
+      <div className="flex-[2] max-md:m-auto ml-auto">
         <img
           src="https://cdn.discordapp.com/attachments/1134206420947054772/1229454354822467594/laurent7939_An_ultra_realistic_photo_of_a_developer_on_a_neutra_ade79bf6-30e5-4caa-b7e3-5735236fe207.png?ex=662fbd98&is=661d4898&hm=cac26c265c90e86312c12f963d65fb8479265e1410ddd04aa738c5cabfae3b96&"
-          className="w-full h-auto max-w-sm"
+          className="w-56 h-56 max-w-xs max-md:w-56 rounded-full object-cover"
           alt="popol's picture"
         />
       </div>
