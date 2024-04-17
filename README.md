@@ -1,3 +1,18 @@
+# Portfolio de développeur. Next.js 14
+
+Ce projet est issu d'un tutoriel et sert de base pour un TP destiné à de jeunes développeurs. 
+
+Cours de React-NextJS et Tailwind CSS.
+
+Merci à Melvin Malherbe pour la qualité de son approche pédagogique.
+Vous trouverez la video sur 
+https://www.youtube.com/watch?v=G8ZQo5S1db0&t=2399s
+
+Twitter: https://mlv.sh/twitter
+GitHub: https://mlv.sh/github
+
+# Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
