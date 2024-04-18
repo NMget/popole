@@ -18,26 +18,24 @@ const SKILLS: SkillProps[] = [
     logo: "ReactIcon",
     size: 52,
     name: "React",
-    description: `En Javascript ou en TypeScript. Que ce
-    soit coté client, coté serveur avec NexJS ou bien pour
-    une apllication mobile hybride avec React Native.`,
+    description:
+      "En Javascript ou en TypeScript. Que ce soit coté client, coté serveur avec NexJS ou bien pour une apllication mobile hybride avec React Native.",
     rotate: true,
   },
   {
     logo: "NextJsIcon",
     size: 52,
     name: "NextJS",
-    description: `Construit sur les dernières fonctionnalités de React et de Node JS
-    , notamment les composants et les actions serveur. Il me permet de construire de magnifiques applications
-    stylisées par Tailwind CSS.`,
+    description:
+      "Construit sur les dernières fonctionnalités de React et de Node JS, notamment les composants et les actions serveur. Il me permet de construire de magnifiques applications stylisées par Tailwind CSS.",
     rotate: false,
   },
   {
     logo: "OpenAiIcon",
     size: 52,
     name: "OpenAI",
-    description: ` Intégration d'OpenAi dans vos applications pour créer
-    une expérience utilisateur parfaite.`,
+    description:
+      "Intégration d'OpenAi dans vos applications pour créer une expérience utilisateur parfaite.",
     rotate: true,
   },
 ];

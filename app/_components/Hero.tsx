@@ -11,24 +11,26 @@ export const Hero = () => {
       <div className="flex-[3] flex flex-col gap-2">
         <h2 className="font-caption text-5xl text-primary">Popol</h2>
         <h3 className="text-3xl font-caption">
-          Développeur Logiciel et créateur Web
+          {"Développeur Logiciel et créateur Web"}
         </h3>
         <p className="text-base">
-          Bonjour, je m'appelle Paul Hiscecour et J'aime créer du contenu sur{" "}
+          {
+            "Bonjour, je m'appelle Paul Hiscecour et J'aime créer du contenu sur "
+          }
           <Link href="">
             <Code>
               <YouTubeIcon size={16} className="inline" />
               Youtube
             </Code>
-          </Link>{" "}
-          et sur{" "}
+          </Link>
+          {" et sur "}
           <Link href="">
             <Code>
               <GithubIcon size={14} className="inline" />
               GitHub
             </Code>
           </Link>
-          . J'aime aussi les poireaux et Molie.
+          {". J'aime aussi les poireaux et Molie. "}
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
