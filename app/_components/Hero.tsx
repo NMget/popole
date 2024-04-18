@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Code } from "./Code";
 import { Section } from "./Section";
@@ -31,10 +32,12 @@ export const Hero = () => {
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
-        <img
+        <Image
           src="https://cdn.discordapp.com/attachments/1134206420947054772/1229454354822467594/laurent7939_An_ultra_realistic_photo_of_a_developer_on_a_neutra_ade79bf6-30e5-4caa-b7e3-5735236fe207.png?ex=662fbd98&is=661d4898&hm=cac26c265c90e86312c12f963d65fb8479265e1410ddd04aa738c5cabfae3b96&"
           className="w-56 h-56 max-w-xs max-md:w-56 rounded-full object-cover"
-          alt="popol's picture"
+          alt="popol picture"
+          width={56}
+          height={56}
         />
       </div>
     </Section>
