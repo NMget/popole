@@ -74,7 +74,7 @@ export const Skills = (props: Props) => {
     <Section className="flex flex-col items-start gap-4">
       <Badge variant={"outline"}>Skills</Badge>
       <h2 className="text-3xl font-semibold tracking-tight first:mt-0">
-        J'aime travailler avec...
+        {"J'aime travailler avec..."}
       </h2>
       <div className="flex justify-center items-center m-5">
         {SKILLS.map((skill, index) => (
